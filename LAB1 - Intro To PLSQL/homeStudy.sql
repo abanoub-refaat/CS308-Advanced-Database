@@ -13,6 +13,7 @@ BEGIN
     my_name := 'John';
     DBMS_OUTPUT.PUT_LINE('my name is: ' || my_name);
 END;
+/
 
 DECLARE 
     event      VARCHAR(20);
@@ -22,3 +23,4 @@ BEGIN
     event := q'[Mother's Day]';
     DBMS_OUTPUT.PUT_LINE('2nd Sunday in May is ' || event);
 END;
+/

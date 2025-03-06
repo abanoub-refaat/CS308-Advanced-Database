@@ -9,3 +9,4 @@ BEGIN
     WHERE e.employee_id = &id;
     DBMS_OUTPUT.PUT_LINE(q'[Employee's name is: ]' || emp_name || q'[ and his manager's name is ]' || manag_name); 
 END;
+/

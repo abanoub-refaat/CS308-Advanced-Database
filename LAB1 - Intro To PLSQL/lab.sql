@@ -8,6 +8,7 @@ BEGIN
     x := q'[Abanoub'S]';
     DBMS_OUTPUT.PUT_LINE('Hello, world ' || x); --CONCATINATION
 END;
+/
 
 DECLARE
     sal employees.salary%type;
@@ -17,3 +18,4 @@ BEGIN
     WHERE last_name = 'Atkinson';
     DBMS_OUTPUT.PUT_LINE('The value of the salary of the employee is: ' || sal); 
 END;
+/

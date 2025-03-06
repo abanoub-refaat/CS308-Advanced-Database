@@ -12,3 +12,4 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE(x || ' is NOT DIVISABLE BY 5 NOR 3');
     end if;
 END;
+/
